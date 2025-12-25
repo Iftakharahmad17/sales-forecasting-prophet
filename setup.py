@@ -3,8 +3,9 @@ from setuptools import setup, find_packages
 setup(
     name="sales-forecasting-prophet",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Iftakhar Ahmad",
+    author_email="iftakharahmad1458@gmail.com",
+    url="https://github.com/Iftakharahmad17/sales-forecasting-prophet.git"
     description="Sales forecasting with Facebook Prophet",
     packages=find_packages(),
     python_requires=">=3.8",
