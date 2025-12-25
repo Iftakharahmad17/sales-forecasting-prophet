@@ -1,0 +1,12 @@
+# Configuration
+data:
+  date_column: 'date'
+  target_column: 'sales'
+
+model:
+  seasonality_mode: 'multiplicative'
+  yearly_seasonality: true
+  weekly_seasonality: true
+
+forecasting:
+  default_periods: 30

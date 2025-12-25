@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  forecast-training:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./reports:/app/reports
+    command: python scripts/train_model.py --data data/sample_sales_data.csv
